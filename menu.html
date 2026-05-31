@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentic Menu | Restaurant Canada Best Montreal</title>
+    <meta name="description" content="Explore our authentic Malaysian & Sri Lankan menu. Featuring sizzling griddle-chopped Kottu Roti, coconut Nasi Lemak, wok-tossed Mee Goreng, Chicken Biryani, and sweet frothy Teh Tarik. Dine-in, Takeout, & Delivery.">
+    <meta name="keywords" content="Malaysian food menu Montreal, Sri Lankan Kottu Roti menu, Nasi Lemak prices, Halal restaurant Montreal, Sri Lankan spicy curries Montreal">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo" id="logo-link" aria-label="Restaurant Canada Best Homepage">
+                CANADA<span>BEST</span><span class="logo-dot">.</span>
+            </a>
+            
+            <nav class="nav" aria-label="Main Navigation">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-cta">
+                        <a href="contact.html#order" class="btn btn-primary" id="header-order-btn">Order Online</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open mobile menu" aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Hero Banner -->
+    <section class="page-hero" style="background-image: url('images/hero.png');" aria-label="Menu Banner">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content animated fade-in-up">
+            <h1 class="page-hero-title">Our Food Menu</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a>
+                <span class="separator">/</span>
+                <span class="current">Menu</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-title-wrap text-center animated fade-in-up">
+                <span class="text-yellow text-uppercase" style="font-weight: 700; letter-spacing: 1px; font-size: 0.9rem;">EXPLORE TASTES</span>
+                <h2 class="section-title">Authentic Culinary Specialties</h2>
+                <p class="section-subtitle">Use the categories below to filter our dishes. From spicy island curries to aromatic coconut rice, we have something to satisfy every craving.</p>
+            </div>
+
+            <!-- Category Tabs Filtering -->
+            <div class="menu-categories animated fade-in-up delay-1">
+                <button class="menu-category-btn active" data-filter="all">All Dishes</button>
+                <button class="menu-category-btn" data-filter="nasi-lemak">Nasi Lemak</button>
+                <button class="menu-category-btn" data-filter="kottu-roti">Kottu Roti</button>
+                <button class="menu-category-btn" data-filter="noodles">Noodles</button>
+                <button class="menu-category-btn" data-filter="fried-rice">Fried Rice</button>
+                <button class="menu-category-btn" data-filter="biryani">Biryani</button>
+                <button class="menu-category-btn" data-filter="drinks">Drinks & Sides</button>
+            </div>
+
+            <!-- Food Grid -->
+            <div class="food-grid animated fade-in-up delay-2" id="menu-food-grid">
+                
+                <!-- Nasi Lemak 1 -->
+                <div class="food-card" data-category="nasi-lemak">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Nasi Lemak.jpg" alt="Traditional Nasi Lemak with Crispy Spiced Chicken" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge popular">Signature</span>
+                        </div>
+                        <span class="food-card-price">$15.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Traditional Nasi Lemak</h3>
+                        <p class="food-card-desc">Malaysian style coconut rice served with sweet-spicy sambal, crispy fried anchovies (ikan bilis), roasted peanuts, hard-boiled egg, refreshing cucumber, and a golden fried chicken leg.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.9 (240+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Nasi Lemak">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nasi Lemak 2 -->
+                <div class="food-card" data-category="nasi-lemak">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Nasi Lemak.jpg" alt="Beef Rendang Nasi Lemak" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge">Slow-Cooked</span>
+                        </div>
+                        <span class="food-card-price">$16.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Beef Rendang Nasi Lemak</h3>
+                        <p class="food-card-desc">Aromatic coconut rice paired with a premium portion of slow-cooked caramelized beef rendang, simmered for hours in coconut milk, lemongrass, galangal, and rich spices.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.8 (95+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Beef Rendang Nasi Lemak">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nasi Lemak 3 (Veg) -->
+                <div class="food-card" data-category="nasi-lemak">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Nasi Lemak.jpg" alt="Vegetarian Sambal Tofu Nasi Lemak" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge veg">Vegetarian 🌱</span>
+                        </div>
+                        <span class="food-card-price">$13.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Vegetarian Sambal Nasi Lemak</h3>
+                        <p class="food-card-desc">Fragrant coconut rice accompanied by slow-simmered vegetarian sambal, fried tofu cubes, crispy tempeh cubes, roasted peanuts, hard-boiled egg, and cucumber slices.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.7 (65+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Vegetarian Nasi Lemak">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kottu Roti 1 -->
+                <div class="food-card" data-category="kottu-roti">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Mutton Kotu Roti.jpg" alt="Mutton Kottu Roti cooked on griddle" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge">Spicy 🌶️</span>
+                        </div>
+                        <span class="food-card-price">$16.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Sizzling Mutton Kottu Roti</h3>
+                        <p class="food-card-desc">Traditional Sri Lankan street-food classic. Flaky house-made parotta chopped flat on the iron griddle with tender, highly-spiced curry mutton, scrambled egg, onion, and fresh leeks.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.9 (190+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Mutton Kottu Roti">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kottu Roti 2 -->
+                <div class="food-card" data-category="kottu-roti">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Mutton Kotu Roti.jpg" alt="Chicken Kottu Roti cooked on griddle" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge popular">Popular</span>
+                        </div>
+                        <span class="food-card-price">$15.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Sizzling Chicken Kottu Roti</h3>
+                        <p class="food-card-desc">Slicing flatbread chopped fresh on the sizzling iron grill with shredded spiced chicken breast, fluffy scrambled eggs, onions, green chilies, and a side splash of thick chicken curry gravy.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.8 (130+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Chicken Kottu Roti">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kottu Roti 3 (Veg) -->
+                <div class="food-card" data-category="kottu-roti">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Mutton Kotu Roti.jpg" alt="Vegetarian egg and vegetable Kottu Roti" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge veg">Vegetarian 🌱</span>
+                        </div>
+                        <span class="food-card-price">$13.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Vegetarian Garden Kottu</h3>
+                        <p class="food-card-desc">Finely sliced parotta griddle-chopped with crunchy cabbage, shredded carrots, green leeks, red onions, eggs, roasted spices, and served with deep rich vegetarian curry gravy.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.7 (70+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Veg Kottu Roti">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Noodles 1 -->
+                <div class="food-card" data-category="noodles">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Chicken Noodles.jpg" alt="Wok-tossed Malaysian Mee Goreng" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge popular">Wok-Hei</span>
+                        </div>
+                        <span class="food-card-price">$14.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Malaysian Fried Noodles</h3>
+                        <p class="food-card-desc">Famous yellow egg noodles wok-fried at high heat with plump prawns, sliced chicken breast, fluffy egg ribbons, fresh leafy green choy sum, and crisp bean sprouts in dark sweet soy.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.8 (150+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Malaysian Fried Noodles">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Noodles 2 -->
+                <div class="food-card" data-category="noodles">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Shrimp Fried Noodles.jpg" alt="Sri Lankan Spicy Seafood Noodles" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge">Spicy 🌶️</span>
+                        </div>
+                        <span class="food-card-price">$16.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Spicy Seafood Char Noodles</h3>
+                        <p class="food-card-desc">Stir-fried flat rice noodles cooked with juicy shrimp, tender calamari rings, fish cakes, egg, cabbage, tossed in a fiery home-made chili-crab paste that delivers a deep, robust kick.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.7 (80+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Seafood Char Noodles">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fried Rice 1 -->
+                <div class="food-card" data-category="fried-rice">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Shrimp Fried Rice.jpg" alt="Malaysian Nasi Goreng with satay" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge popular">Popular</span>
+                        </div>
+                        <span class="food-card-price">$14.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Authentic Nasi Goreng</h3>
+                        <p class="food-card-desc">Flavorful Malaysian spiced fried rice tossed with shredded chicken, shrimp, vegetables, topped with a runny fried egg, and served with a side of crispy prawn crackers (kerupuk).</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.8 (110+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Nasi Goreng">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fried Rice 2 -->
+                <div class="food-card" data-category="fried-rice">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Chicken Fried Rice.jpg" alt="Sri Lankan Devilled Chicken Fried Rice" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge">Fiery 🌶️</span>
+                        </div>
+                        <span class="food-card-price">$15.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Devilled Chicken Fried Rice</h3>
+                        <p class="food-card-desc">Wok-fried rice with egg and scallions, topped with a generous serving of Sri Lankan "Devilled" chicken—juicy chicken pieces wok-tossed in a spicy, sweet, and tangy onion-pepper glaze.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.9 (85+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Devilled Chicken Fried Rice">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biryani 1 -->
+                <div class="food-card" data-category="biryani">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Chicken Biryani.jpg" alt="Royal Spiced Chicken Biryani" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge popular">Chef's Choice</span>
+                        </div>
+                        <span class="food-card-price">$15.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Special Chicken Biryani</h3>
+                        <p class="food-card-desc">Layered, long-grain basmati rice infused with fragrant spices (cardamom, cinnamon, saffron), slow-cooked (dum) with marinated bone-in chicken. Served with hard-boiled egg and cooling raita.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.9 (170+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Chicken Biryani">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biryani 2 -->
+                <div class="food-card" data-category="biryani">
+                    <div class="food-card-img-wrap">
+                        <img src="images/biryani.png" alt="Fragrant dum Mutton Biryani" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge">Royal Treat</span>
+                        </div>
+                        <span class="food-card-price">$17.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Imperial Mutton Dum Biryani</h3>
+                        <p class="food-card-desc">A festive luxury dish. Premium aged basmati rice layered with incredibly tender goat meat cubes slow-steamed with fresh mint, coriander, ginger, garlic, and freshly roasted masala spices.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.8 (100+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Mutton Dum Biryani">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Appetizer 1: Chicken & Mutton Rolls -->
+                <div class="food-card" data-category="drinks">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Chicken & Mutton Rolls.jpg" alt="Crispy deep-fried Chicken and Mutton Rolls" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge popular">Short Eats</span>
+                        </div>
+                        <span class="food-card-price">$6.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Chicken & Mutton Rolls</h3>
+                        <p class="food-card-desc">Deep-fried Sri Lankan style savory rolls. Crispy golden exterior packed with a perfectly spiced minced chicken, mutton, and potato filling.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.8 (90+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Chicken and Mutton Rolls">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Appetizer 2: Fish Fry -->
+                <div class="food-card" data-category="drinks">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Fish Fry.jpg" alt="Spicy Sri Lankan Fish Fry" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge">Spicy 🌶️</span>
+                        </div>
+                        <span class="food-card-price">$8.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Traditional Fish Fry</h3>
+                        <p class="food-card-desc">Crispy pan-fried fish cutlets marinated in traditional Sri Lankan roasted curry powder, black pepper, turmeric, and fresh lemon. Garnished with red onion rings.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.7 (55+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Traditional Fish Fry">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Appetizer 3: Idli -->
+                <div class="food-card" data-category="drinks">
+                    <div class="food-card-img-wrap">
+                        <img src="images/Idli.jpg" alt="Soft fluffy steamed Idli with sambar and chutney" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge veg">Vegetarian 🌱</span>
+                        </div>
+                        <span class="food-card-price">$7.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Steamed Idli (3 Pcs)</h3>
+                        <p class="food-card-desc">Soft, pillowy steamed South Indian rice cakes made from a fermented black lentil and rice batter. Served hot with aromatic lentil sambar and spicy coconut chutney.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.9 (110+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Steamed Idli">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drink 1 -->
+                <div class="food-card" data-category="drinks">
+                    <div class="food-card-img-wrap">
+                        <img src="images/hero.png" alt="Pulled Sweet Frothy Hot Teh Tarik" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge popular">Must Try</span>
+                        </div>
+                        <span class="food-card-price">$3.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Pulled Tea (Teh Tarik)</h3>
+                        <p class="food-card-desc">The beloved frothy tea beverage of Malaysia. Strongly brewed black tea blended with condensed milk, "pulled" between two pitchers to create a thick, velvety texture and frothy head. (Served Hot or Iced).</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.9 (180+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Teh Tarik">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drink 2 -->
+                <div class="food-card" data-category="drinks">
+                    <div class="food-card-img-wrap">
+                        <img src="images/hero.png" alt="Creamy cold Mango Lassi drink" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge veg">Yogurt Base 🌱</span>
+                        </div>
+                        <span class="food-card-price">$4.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">Sweet Mango Lassi</h3>
+                        <p class="food-card-desc">Refreshing, creamy yogurt drink blended with high-quality sweet Alphonso mango pulp, sugar, and cardamoms. The perfect antidote to extinguish our fiery devilled spices.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.8 (120+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Mango Lassi">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drink 3 -->
+                <div class="food-card" data-category="drinks">
+                    <div class="food-card-img-wrap">
+                        <img src="images/hero.png" alt="Sri Lankan Ginger Beer" class="food-card-img" loading="lazy">
+                        <div class="food-card-badges">
+                            <span class="food-card-badge">Spicy Kick</span>
+                        </div>
+                        <span class="food-card-price">$3.99</span>
+                    </div>
+                    <div class="food-card-content">
+                        <h3 class="food-card-title">EGB (Elephant Ginger Beer)</h3>
+                        <p class="food-card-desc">The authentic, classic Sri Lankan carbonated beverage. Infused with pure local natural ginger extract, delivering a sweet, highly bubbly, and refreshing sharp ginger throat kick.</p>
+                        <div class="food-card-footer">
+                            <div class="food-card-rating">
+                                <span>★</span> 4.7 (75+ reviews)
+                            </div>
+                            <a href="contact.html#order" class="food-card-order-btn" aria-label="Order Elephant Ginger Beer">Order Direct &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container footer-grid">
+            <!-- Col 1: About -->
+            <div class="footer-column footer-about">
+                <a href="index.html" class="logo">
+                    CANADA<span>BEST</span><span class="logo-dot">.</span>
+                </a>
+                <p style="margin-top: 15px; color: var(--text-muted);">Serving authentic Malaysian and Sri Lankan street food in Montreal. Traditional techniques, fresh ingredients, house-ground spices.</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/restaurant.canada.best" target="_blank" class="social-icon" aria-label="Visit us on Instagram">📸</a>
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon" aria-label="Visit us on Facebook">👤</a>
+                    <a href="https://www.youtube.com" target="_blank" class="social-icon" aria-label="Visit us on YouTube">🎥</a>
+                </div>
+            </div>
+            
+            <!-- Col 2: Quick Links -->
+            <div class="footer-column footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Our Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <!-- Col 3: Contact Info -->
+            <div class="footer-column footer-contact">
+                <h3>Find Us</h3>
+                <ul>
+                    <li>
+                        <span class="footer-contact-icon">📍</span>
+                        <span>997 Av. Ogilvy,<br>Montréal, QC H3N 2T3</span>
+                    </li>
+                    <li>
+                        <span class="footer-contact-icon">📞</span>
+                        <a href="tel:+15144957664" style="color: var(--text-light);">+1 514-495-7664</a>
+                    </li>
+                    <li>
+                        <span class="footer-contact-icon">✉️</span>
+                        <a href="mailto:info@restaurantcanadabest.com">info@canadabest.com</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Col 4: Instagram Feed -->
+            <div class="footer-column">
+                <h3>Instagram Feed</h3>
+                <div class="footer-instagram-grid" style="margin-top: 15px;">
+                    <a href="https://www.instagram.com/restaurant.canada.best" target="_blank" class="footer-insta-item" aria-label="Instagram post 1">
+                        <img src="images/Nasi Lemak.jpg" alt="Delicious Nasi Lemak from Instagram feed" loading="lazy">
+                    </a>
+                    <a href="https://www.instagram.com/restaurant.canada.best" target="_blank" class="footer-insta-item" aria-label="Instagram post 2">
+                        <img src="images/Mutton Kotu Roti.jpg" alt="Sizzling Mutton Kottu from Instagram feed" loading="lazy">
+                    </a>
+                    <a href="https://www.instagram.com/restaurant.canada.best" target="_blank" class="footer-insta-item" aria-label="Instagram post 3">
+                        <img src="images/Chicken Noodles.jpg" alt="Spicy fried Mee Goreng from Instagram feed" loading="lazy">
+                    </a>
+                    <a href="https://www.instagram.com/restaurant.canada.best" target="_blank" class="footer-insta-item" aria-label="Instagram post 4">
+                        <img src="images/Chicken Biryani.jpg" alt="Aromatic Chicken Biryani from Instagram feed" loading="lazy">
+                    </a>
+                    <a href="https://www.instagram.com/restaurant.canada.best" target="_blank" class="footer-insta-item" aria-label="Instagram post 5">
+                        <img src="images/Chicken Fried Rice.jpg" alt="Cozy bistro ambiance from Instagram feed" loading="lazy">
+                    </a>
+                    <a href="https://www.instagram.com/restaurant.canada.best" target="_blank" class="footer-insta-item" aria-label="Instagram post 6">
+                        <img src="images/Chicken & Mutton Rolls.jpg" alt="Feast spread from Instagram feed" loading="lazy">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Restaurant Canada Best. All Rights Reserved. Made with ♥ for authentic flavors.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Interactions -->
+    <script src="js/main.js"></script>
+</body>
+</html>
